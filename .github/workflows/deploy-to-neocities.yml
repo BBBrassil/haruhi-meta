@@ -1,0 +1,50 @@
+name: Deploy to Neocities
+
+on:
+  workflow_dispatch:
+    inputs:
+      cleanup:
+        type: boolean
+        default: false
+        required: true
+  push:
+    branches:
+      - main
+  
+concurrency:
+  group: deploy-to-neocities
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+  
+    steps:
+    - name: Handle Input
+      id: input
+      run: |
+        cleanup=${{ github.event.inputs.cleanup || 'false' }}
+        echo "cleanup=$cleanup" >> "$GITHUB_OUTPUT"
+    
+    - name: checkout
+      uses: actions/checkout@v6
+    
+    - name: setup-node
+      uses: actions/setup-node@v6
+      with:
+        node-version: 24
+    
+    - name: Build
+      run: |
+        npm ci
+        npm run test
+        npm run build
+    
+    - name: Deploy to Neocities
+      uses: bcomnes/deploy-to-neocities@v3
+      with:
+        api_key: ${{ secrets.NEOCITIES_API_KEY }}
+        cleanup: ${{ steps.input.outputs.cleanup }}
+        neocities_supporter: false
+        preview_before_deploy: true
+        dist_dir: dist
