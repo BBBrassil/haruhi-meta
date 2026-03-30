@@ -1,0 +1,176 @@
+{
+  "melancholy1": {
+    "title": "The Melancholy of Haruhi Suzumiya Part 1",
+    "src": "/images/episodes/melancholy_1.png",
+    "alt": "An excited Haruhi pulls on Kyon's tie, to Kyon's dismay",
+    "type": "tv-episode"
+  },
+  "melancholy2": {
+    "title": "The Melancholy of Haruhi Suzumiya Part 2",
+    "src": "/images/episodes/melancholy_2.png",
+    "alt": "Haruhi and Mikuru are dressed as bunny girls",
+    "type": "tv-episode"
+  },
+  "melancholy3": {
+    "title": "The Melancholy of Haruhi Suzumiya Part 3",
+    "src": "/images/episodes/melancholy_3.png",
+    "alt": "Mikuru, dressed as a maid, sits nervously in the SOS Brigade club room as Haruhi strokes her hair",
+    "type": "tv-episode"
+  },
+  "melancholy4": {
+    "title": "The Melancholy of Haruhi Suzumiya Part 4",
+    "src": "/images/episodes/melancholy_4.png",
+    "alt": "Kyon meets with Asakura in their classroom at sunset",
+    "type": "tv-episode"
+  },
+  "melancholy5": {
+    "title": "The Melancholy of Haruhi Suzumiya Part 5",
+    "src": "/images/episodes/melancholy_5.png",
+    "alt": "Kyon watches Haruhi walk home alone by a railroad crossing",
+    "type": "tv-episode"
+  },
+  "melancholy6": {
+    "title": "The Melancholy of Haruhi Suzumiya Part 6",
+    "src": "/images/episodes/melancholy_6.png",
+    "alt": "Kyon places his hands on Haruhi's shoulders",
+    "type": "tv-episode"
+  },
+  "boredom": {
+    "title": "The Boredom of Haruhi Suzumiya",
+    "src": "/images/episodes/boredom.png",
+    "alt": "Haruhi plays baseball while dressed as a cheerleader",
+    "type": "tv-episode"
+  },
+  "bambooLeafRhapsody": {
+    "title": "Bamboo Leaf Rhapsody",
+    "src": "/images/episodes/bamboo_leaf_rhapsody.png",
+    "alt": "A Tanabata tree hangs out of the SOS Brigade club room window",
+    "type": "tv-episode"
+  },
+  "mysteriqueSign": {
+    "title": "Mystérique Sign",
+    "src": "/images/episodes/mysterique_sign.png",
+    "alt": "The SOS Brigade website has a data glitch",
+    "type": "tv-episode"
+  },
+  "remoteIslandSyndrome1": {
+    "title": "Remote Island Syndrome Part 1",
+    "src": "/images/episodes/remote_island_syndrome_1.png",
+    "alt": "Haruhi, Mikuru, Nagato, and Kyon's sister relax in the ocean, reclining on inflatable tubes",
+    "type": "tv-episode"
+  },
+  "remoteIslandSyndrome2": {
+    "title": "Remote Island Syndrome Part 2",
+    "src": "/images/episodes/remote_island_syndrome_2.png",
+    "alt": "Haruhi points confidently, making an accusation",
+    "type": "tv-episode"
+  },
+  "endlessEight1": {
+    "title": "Endless Eight Part 1",
+    "src": "/images/episodes/endless_eight_1.png",
+    "alt": "Haruhi, Mikuru, and Nagato jump into the pool",
+    "type": "tv-episode"
+  },
+  "endlessEight2": {
+    "title": "Endless Eight Part 2",
+    "src": "/images/episodes/endless_eight_2.png",
+    "alt": "Haruhi, Mikuru, and Nagato show off their yukata to Kyon and Koizumi",
+    "type": "tv-episode"
+  },
+  "endlessEight3": {
+    "title": "Endless Eight Part 3",
+    "src": "/images/episodes/endless_eight_3.png",
+    "alt": "The SOS Brigade club members catch cicadas",
+    "type": "tv-episode"
+  },
+  "endlessEight4": {
+    "title": "Endless Eight Part 4",
+    "src": "/images/episodes/endless_eight_4.png",
+    "alt": "The SOS Brigade club members (except Haruhi) are dressed in frog costumes",
+    "type": "tv-episode"
+  },
+  "endlessEight5": {
+    "title": "Endless Eight Part 5",
+    "src": "/images/episodes/endless_eight_5.png",
+    "alt": "A bewildered Kyon meets with Mikuru, Nagato, and Koizumi in a park at night",
+    "type": "tv-episode"
+  },
+  "endlessEight6": {
+    "title": "Endless Eight Part 6",
+    "src": "/images/episodes/endless_eight_6.png",
+    "alt": "Haruhi searches for UFOs with a telescope while Mikuru and Nagato watch",
+    "type": "tv-episode"
+  },
+  "endlessEight7": {
+    "title": "Endless Eight Part 7",
+    "src": "/images/episodes/endless_eight_7.png",
+    "alt": "A calendar shows August 8",
+    "type": "tv-episode"
+  },
+  "endlessEight8": {
+    "title": "Endless Eight Part 8",
+    "src": "/images/episodes/endless_eight_8.png",
+    "alt": "Haruhi disciplines Kyon",
+    "type": "tv-episode"
+  },
+  "sigh1": {
+    "title": "The Sigh of Haruhi Suzumiya Part 1",
+    "src": "/images/episodes/sigh_1.png",
+    "alt": "The SOS Brigade club members discuss their plans for the cultural festival",
+    "type": "tv-episode"
+  },
+  "sigh2": {
+    "title": "The Sigh of Haruhi Suzumiya Part 2",
+    "src": "/images/episodes/sigh_2.png",
+    "alt": "The SOS Brigade films outside an electronics store; Haruhi sits in a director's chair",
+    "type": "tv-episode"
+  },
+  "sigh3": {
+    "title": "The Sigh of Haruhi Suzumiya Part 3",
+    "src": "/images/episodes/sigh_3.png",
+    "alt": "Mikuru, dressed as a waitress and wearing one colored contact lens, fires her \"Mikuru Beam\"",
+    "type": "tv-episode"
+  },
+  "sigh4": {
+    "title": "The Sigh of Haruhi Suzumiya Part 4",
+    "src": "/images/episodes/sigh_4.png",
+    "alt": "Mikuru poses by a lake as the SOS Brigade club members continue filming their movie",
+    "type": "tv-episode"
+  },
+  "sigh5": {
+    "title": "The Sigh of Haruhi Suzumiya Part 5",
+    "src": "/images/episodes/sigh_5.png",
+    "alt": "The SOS Brigade club members find a stray calico cat",
+    "type": "tv-episode"
+  },
+  "episode00": {
+    "title": "The Adventures of Mikuru Asahina Episode 00",
+    "src": "/images/episodes/episode_00.png",
+    "alt": "Mikuru is dressed as a bunny girl in the opening credits of the SOS Brigade's movie",
+    "type": "tv-episode"
+  },
+  "liveAlive": {
+    "title": "Live Alive",
+    "src": "/images/episodes/live_alive.png",
+    "alt": "Haruhi sings and plays guitar on stage while dressed as a bunny girl",
+    "type": "tv-episode"
+  },
+  "dayOfSagittarius": {
+    "title": "The Day of Sagittarius",
+    "src": "/images/episodes/day_of_sagittarius.png",
+    "alt": "A laptop shows the title screen of a video game named \"The Day of Sagittarius III\"",
+    "type": "tv-episode"
+  },
+  "somedayInTheRain": {
+    "title": "Someday in the Rain",
+    "src": "/images/episodes/someday_in_the_rain.png",
+    "alt": "Haruhi and Kyon share an umbrella in the rain",
+    "type": "tv-episode"
+  },
+  "disappearance": {
+    "title": "The Disappearance of Haruhi Suzumiya",
+    "src": "/images/episodes/disappearance.png",
+    "alt": "Nagato tugs on Kyon's sleeve while it is snowing",
+    "type": "film"
+  }
+}

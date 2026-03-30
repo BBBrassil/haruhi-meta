@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width" />
+	<title>The Metachronology of Haruhi Suzumiya</title>
+	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/tabbable/dist/index.umd.js" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/focus-trap/dist/focus-trap.umd.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/@calendarjs/ce/dist/style.min.css" rel="stylesheet" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet" crossorigin="anonymous" />
+	<script src="https://cdn.jsdelivr.net/npm/lemonadejs/dist/lemonade.min.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@calendarjs/ce/dist/index.min.js" crossorigin="anonymous"></script>
+	<link href=" https://cdn.jsdelivr.net/npm/@fontsource/noto-sans@5.2.10/400.min.css " rel="stylesheet" crossorigin="anonymous" />
+	<link href="https://fonts.cdnfonts.com/css/monospace-typewriter" rel="stylesheet" crossorigin="anonymous" />
+	<link href="/styles.css" rel="stylesheet" type="text/css" crossorigin="anonymous" />
+	<script src="/scripts.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<div class="home">
+		<main>
+			<section>
+				<h1>Welcome to the Metachronology of Haruhi Suzumiya!</h1>
+				<figure id="episode" class="episode">
+					<img id="thumb"></img>
+					<figcaption id="caption"></figcaption>
+				</figure>
+				<div id="empty" class="episode">
+					<img id="sos" src="/images/sos.svg" alt="SOS Brigade logo" />
+				</div>
+				<div>
+					<p class="enter"><a href="/about.html">Enter</a></p>
+					<p class="change-date">
+						<span>Change the date →</span>
+						<input id="date-open" type="image" src="/images/calendar.svg" alt="Open date picker" title="Change Date" />
+					</p>
+					<p class="note">This website contains mild spoilers for the anime series <cite data-type="tv">The Melancholy of Haruhi Suzumiya</cite>. Viewer discretion is advised.</p>
+				</div>
+			</section>
+			<aside>
+				<span>Showing the date</span>
+				<span>
+					<span id="clock" aria-hidden="true"></span><time id="time" class="sr-only"></time>
+				</span>
+				<span>and associated content.</span>
+			</aside>
+		</main>
+		<div id="modal-frame">
+			<section id="date-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="date-label">
+				<div class="header">
+					<h1 id="date-label">Change Date</h1>
+				</div>
+				<div class="body">
+					<div>
+						<input id="date-input" type="text" aria-label="Date input" />
+						<input id="date-today" type="image" src="/images/today.svg" alt="Today" title="Today" />
+					</div>
+					<div id="calendar"></div>
+				</div>
+				<div class="footer">
+					<input id="date-cancel" type="image" src="/images/cancel.svg" alt="Cancel" title="Cancel" />
+					<input id="date-save" type="image" src="/images/save.svg" alt="Save" title="Save" />
+				</div>
+			</section>
+			<div class="modal-back"></div>
+		</div>
+	</div>
+	<script>
+		Kyon.hide(Kyon.getRoot());
+        Kyon.ready(Haruhi.Site.Home);
+	</script>
+</body>
+
+</html>

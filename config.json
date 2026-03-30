@@ -1,0 +1,12 @@
+{
+    "bundle": [
+        {
+            "output": "scripts.js",
+            "input": [
+                "src/**",
+                "!**.test.js",
+                "!**/__tests__/**"
+            ]
+        }
+    ]
+}

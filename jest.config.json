@@ -1,0 +1,12 @@
+{
+    "testEnvironment": "jsdom",
+    "testPathIgnorePatterns": [
+        ".*(?<!\\.test)\\.js"
+    ],
+    "collectCoverageFrom": [
+        "src/**"
+    ],
+    "coveragePathIgnorePatterns": [
+        "__tests__/.*"
+    ]
+}

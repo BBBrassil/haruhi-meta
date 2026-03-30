@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Timeline Showing the Metachronology of Haruhi Suzumiya</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/3.0.5/seedrandom.min.js" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/tabbable/dist/index.umd.js" crossorigin="anonymous"></script>
+	<script src="https://unpkg.com/focus-trap/dist/focus-trap.umd.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/@calendarjs/ce/dist/style.min.css" rel="stylesheet" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css?family=Material+Icons" rel="stylesheet" crossorigin="anonymous" />
+	<script src="https://cdn.jsdelivr.net/npm/lemonadejs/dist/lemonade.min.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@calendarjs/ce/dist/index.min.js" crossorigin="anonymous"></script>
+	<link href=" https://cdn.jsdelivr.net/npm/@fontsource/noto-sans@5.2.10/400.min.css " rel="stylesheet" crossorigin="anonymous" />
+	<link href="https://fonts.cdnfonts.com/css/monospace-typewriter" rel="stylesheet" crossorigin="anonymous" />
+	<link href="/styles.css" rel="stylesheet" type="text/css" crossorigin="anonymous" />
+	<script src="/scripts.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="generic timeline">
+        <main>
+            <h1>Timeline!!!!</h1>
+            <div id="subtitle" class="subtitle"></div>
+            <div id="timeline"></div>
+        </main>
+        <nav>
+            <ul>
+                <li>
+                    <ul>
+                        <li>
+                            <a href="/about.html" title="About">
+                                <span aria-hidden="true">?</span><span class="sr-only">About</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/timeline.html" title="Timeline" aria-current="page">
+                                <span aria-hidden="true">§</span><span class="sr-only">Timeline</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="/" alt="Home" title="Home">
+                        <img src="/images/sos.svg" alt="Home" />
+                    </a>
+                </li>
+                <li>
+                    <ul>
+                        <li>
+                            <a href="/method.html" title="Methodology">
+                                <span aria-hidden="true">⌘</span><span class="sr-only">Methodology</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/design.html" title="Design">
+                                <span aria-hidden="true">!</span><span class="sr-only">Design</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <script>
+        Kyon.hide(Kyon.getRoot());
+        Kyon.ready(Haruhi.Site.Timeline);
+    </script>
+</body>
+
+</html>
