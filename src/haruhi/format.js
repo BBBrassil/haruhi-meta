@@ -32,6 +32,6 @@
   };
 
   Format.timelineMonthLegend = () => {
-    return "* Indicates the first occurrence of this episode.";
+    return "* Indicates the first occurrence of this episode in sequential order (1–8).";
   }
 })(Haruhi.Format = Haruhi.Format || {});
